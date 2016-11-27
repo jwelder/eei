@@ -1,6 +1,5 @@
 node {
-	stage "Stage 1"
-	echo 'Hello World 1'
-	stage "Stage 2"
-	echo 'Hello World 2'
+	stage "Checkout"
+	git url: 'https://github.com/jwelder/eei.git'
+	
 }
